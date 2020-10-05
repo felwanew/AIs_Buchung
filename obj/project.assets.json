@@ -1668,10 +1668,10 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Data.Sqlite/3.1.6": {
+      "Microsoft.Data.Sqlite/3.1.8": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "3.1.6",
+          "Microsoft.Data.Sqlite.Core": "3.1.8",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.0.2"
         },
         "compile": {
@@ -1681,7 +1681,7 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.Data.Sqlite.Core/3.1.6": {
+      "Microsoft.Data.Sqlite.Core/3.1.8": {
         "type": "package",
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.2"
@@ -6038,30 +6038,30 @@
         "version.txt"
       ]
     },
-    "Microsoft.Data.Sqlite/3.1.6": {
-      "sha512": "sS2Rv+XO5J9iWZoy6Snyhjmx9vldzztNMfXbk1uPlW8p4wsl7aOqoYMta2uKuvPVZzJ3dKeK1XuiWADP0ZQyeg==",
+    "Microsoft.Data.Sqlite/3.1.8": {
+      "sha512": "1n1Jhlym5Ljw5KCwc9KNe8HGIAjLJuhE9B7DRgQJ9sD+8/sHD0aNCS9XfJanaPBJl2zuBDimO67cmfm0jckzlg==",
       "type": "package",
-      "path": "microsoft.data.sqlite/3.1.6",
+      "path": "microsoft.data.sqlite/3.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/_._",
-        "microsoft.data.sqlite.3.1.6.nupkg.sha512",
+        "microsoft.data.sqlite.3.1.8.nupkg.sha512",
         "microsoft.data.sqlite.nuspec"
       ]
     },
-    "Microsoft.Data.Sqlite.Core/3.1.6": {
-      "sha512": "fau0sMXOqZSBm3cZzfZMmk8YD9aa3ePtZQ2B34OfZKoh1RU+5sRstMEig9NZes4hcUiZkfcXFCy2JUnD+8T2XQ==",
+    "Microsoft.Data.Sqlite.Core/3.1.8": {
+      "sha512": "7zA23EkPltGmtobG/X1JviLEnylQ27zoupMfTs4Prif9WQpGdyrajLQP1Emfxq8nzimB99omKO2piM2g8IhqfA==",
       "type": "package",
-      "path": "microsoft.data.sqlite.core/3.1.6",
+      "path": "microsoft.data.sqlite.core/3.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
-        "microsoft.data.sqlite.core.3.1.6.nupkg.sha512",
+        "microsoft.data.sqlite.core.3.1.8.nupkg.sha512",
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
@@ -12434,7 +12434,7 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Mvc.Formatters.Json >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.Data.Sqlite >= 3.1.6",
+      "Microsoft.Data.Sqlite >= 3.1.8",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -12445,11 +12445,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wanwitfe\\source\\repos\\aisbuchungapi_05.10.1320\\AisBuchungApi-master\\AisBuchung_Api\\AisBuchung_Api\\AisBuchung_Api.csproj",
+      "projectUniqueName": "C:\\Users\\wanwitfe\\Source\\Repos\\AIs_Buchung\\AisBuchung_Api.csproj",
       "projectName": "AisBuchung_Api",
-      "projectPath": "C:\\Users\\wanwitfe\\source\\repos\\aisbuchungapi_05.10.1320\\AisBuchungApi-master\\AisBuchung_Api\\AisBuchung_Api\\AisBuchung_Api.csproj",
+      "projectPath": "C:\\Users\\wanwitfe\\Source\\Repos\\AIs_Buchung\\AisBuchung_Api.csproj",
       "packagesPath": "C:\\Users\\wanwitfe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wanwitfe\\source\\repos\\aisbuchungapi_05.10.1320\\AisBuchungApi-master\\AisBuchung_Api\\AisBuchung_Api\\obj\\",
+      "outputPath": "C:\\Users\\wanwitfe\\Source\\Repos\\AIs_Buchung\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -12501,7 +12501,7 @@
           },
           "Microsoft.Data.Sqlite": {
             "target": "Package",
-            "version": "[3.1.6, )"
+            "version": "[3.1.8, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
