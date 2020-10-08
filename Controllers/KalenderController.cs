@@ -50,7 +50,7 @@ namespace AisBuchung_Api.Controllers
         {
             if (!auth.CheckIfOrganizerPermissions(loginPost))
             {
-                //return Unauthorized();
+                return Unauthorized();
             }
 
             var result = model.GetCalendarOrganizers(calendarId);

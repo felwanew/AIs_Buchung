@@ -13,6 +13,7 @@ namespace AisBuchung_Api
     {
         public static void Main(string[] args)
         {
+            Models.DatabaseManager.CreateNewDatabase(false);
             CreateHostBuilder(args).Build().Run();
         }
 

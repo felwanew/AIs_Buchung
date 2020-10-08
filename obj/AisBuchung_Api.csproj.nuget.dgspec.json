@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wanwitfe\\source\\repos\\AIs_Buchung2\\AisBuchung_Api.csproj": {}
+    "H:\\Profil.V6\\source\\repos\\AIs_Buchung\\AisBuchung_Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wanwitfe\\source\\repos\\AIs_Buchung2\\AisBuchung_Api.csproj": {
+    "H:\\Profil.V6\\source\\repos\\AIs_Buchung\\AisBuchung_Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wanwitfe\\source\\repos\\AIs_Buchung2\\AisBuchung_Api.csproj",
+        "projectUniqueName": "H:\\Profil.V6\\source\\repos\\AIs_Buchung\\AisBuchung_Api.csproj",
         "projectName": "AisBuchung_Api",
-        "projectPath": "C:\\Users\\wanwitfe\\source\\repos\\AIs_Buchung2\\AisBuchung_Api.csproj",
-        "packagesPath": "C:\\Users\\wanwitfe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wanwitfe\\source\\repos\\AIs_Buchung2\\obj\\",
+        "projectPath": "H:\\Profil.V6\\source\\repos\\AIs_Buchung\\AisBuchung_Api.csproj",
+        "packagesPath": "C:\\Users\\SchoenJo\\.nuget\\packages\\",
+        "outputPath": "H:\\Profil.V6\\source\\repos\\AIs_Buchung\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\wanwitfe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SchoenJo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -40,17 +40,11 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "netcoreapp3.1": {
           "dependencies": {
             "Ical.Net": {
               "target": "Package",
               "version": "[4.1.11, )"
-            },
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
             },
             "Microsoft.AspNetCore.Mvc.Formatters.Json": {
               "target": "Package",
@@ -63,13 +57,11 @@
             },
             "Microsoft.Data.Sqlite": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.8, )"
             },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
+            "System.Reflection.TypeExtensions": {
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[4.7.0, )"
             }
           },
           "imports": [
@@ -82,6 +74,14 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
